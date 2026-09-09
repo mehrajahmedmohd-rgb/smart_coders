@@ -1,0 +1,6 @@
+name = input(" enter: ")
+print (name)
+rollno = int(input("enter:"))
+print(rollno)
+phoneno = int(input("enter:"))
+print (phoneno)
