@@ -1,13 +1,14 @@
-n = int (input("enter the number:"))
+n = int (input("enetr the num : "))
 fact = 1
 
 if n < 0 :
-    print("the factorial of negetive is not exist")
+    print("not exist ")
 
-elif n==0:
-    print("factorial of zero is 1")
+elif n == 0:
+    print("fact of zero is one")
 
 else:
     for i in range (1,n+1):
-        fact = fact * i
-print(fact)
+        fact = fact *i
+
+    print(f"factorial of {n} is {fact}")
